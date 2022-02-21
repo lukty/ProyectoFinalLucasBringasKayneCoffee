@@ -1,0 +1,72 @@
+
+
+// Variables
+
+$font-p:  1.3rem;
+$font-h1: 3.0rem;
+$font-h2: 3.4rem;
+$font-h3: 3.0rem;
+
+p{
+    font-size:$font-p;
+    color: rgb(17, 16, 16);
+}
+
+h2{
+    font-size: $font-h2;
+}
+
+h3{
+    font-size: $font-h3;
+    color: rgb(121, 94, 94);
+}
+
+//MIXINS
+
+@mixin caja-flex($principal, $cruzado, $wrap){
+    display: flex;
+    justify-content: $principal;
+    align-items: $cruzado;
+    flex-wrap: $wrap;
+}
+
+
+nav {
+    @include caja-flex(space-between, center, nowrap);
+
+    ul{
+        display:flex;
+        padding:0;
+
+        a{
+            padding: 10px;
+            font-size: 1.1rem;
+            font-weight:bold;
+        }
+
+        a:hover{
+            color:#01060f;
+            transform: scale(1.3);
+        }
+    }
+}
+
+.footer-basic{
+   
+
+    ul{
+        display:inline-flexbox;
+        padding:0;
+
+        a{
+            padding: 10px;
+            font-size: 1.1rem;
+            font-weight:bold;
+        }
+
+        a:hover{
+            color:#01060f;
+            transform: scale(1.3);
+        }
+    }
+}

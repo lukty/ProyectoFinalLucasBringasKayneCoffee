@@ -1,0 +1,391 @@
+.logoNav {
+
+    width: 25%;
+
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/*--------------------------------------------------------------
+# HOME
+--------------------------------------------------------------*/
+
+
+/* Nosotros */
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+.team4 {
+  font-family: "Montserrat", sans-serif;
+	color: #000103;
+  font-weight: 300;
+}
+
+.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6  {
+  color: #000207;
+}
+
+.team4 .font-weight-medium {
+	font-weight: 500;
+}
+
+.team4 h5 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.team4 .subtitle {
+    color: #000207;
+    line-height: 24px;
+		font-size: 13px;
+}
+
+.team4 ul li a  {
+  color: #000308;
+  padding-right: 15px;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.team4 ul li a:hover {
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+	color: #316ce8;
+}
+
+/* Contacto form */
+
+ 
+ 
+.contact-clean {
+    background:#f1f7fc;
+    padding:80px 0;
+}
+  
+@media (max-width:767px) {
+
+.contact-clean {
+      padding:20px 0;
+}
+}
+  
+.contact-clean form {
+    max-width:480px;
+    width:90%;
+    margin:0 auto;
+    background-image: url("../images/caffecontacto.jpg");
+    background-color:#ffffff;
+    padding:40px;
+    border-radius:4px;
+    color:#070707;
+    box-shadow:1px 1px 5px rgba(0,0,0,0.1);
+}
+  
+@media (max-width:767px) {
+    .contact-clean form {
+      padding:30px;
+    }
+}
+  
+.contact-clean h2 {
+    margin-top:5px;
+    font-weight:bold;
+    font-size:28px;
+    margin-bottom:36px;
+    color:inherit;
+}
+  
+  .contact-clean .form-group:last-child {
+    margin-bottom:5px;
+}
+  
+.contact-clean form .form-control {
+    background:#fff;
+    border-radius:2px;
+    box-shadow:1px 1px 1px rgba(0,0,0,0.05);
+    outline:none;
+    color:inherit;
+    padding-left:12px;
+    height:42px;
+}
+  
+.contact-clean form .form-control:focus {
+    border:1px solid #b2b2b2;
+}
+  
+.contact-clean form textarea.form-control {
+    min-height:100px;
+    max-height:260px;
+    padding-top:10px;
+    resize:vertical;
+}
+  
+.contact-clean form .btn {
+    padding:16px 32px;
+    border:none;
+    background:none;
+    box-shadow:none;
+    text-shadow:none;
+    opacity:0.9;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:13px;
+    letter-spacing:0.4px;
+    line-height:1;
+    outline:none !important;
+}
+  
+.contact-clean form .btn:hover {
+    opacity:1;
+}
+  
+.contact-clean form .btn:active {
+    transform:translateY(1px);
+}
+  
+.contact-clean form .btn-primary {
+    background-color:#055ada !important;
+    margin-top:15px;
+    color:#fff;
+}
+
+/* Elaboracion */ 
+
+.projects-horizontal {
+    color:#313437;
+    background-color:#fff;
+}
+  
+  .projects-horizontal p {
+    color:#080e13;
+    font-family: 'Roboto Mono', monospace;
+}
+  
+.projects-horizontal h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+}
+  
+@media (max-width:767px) {
+    .projects-horizontal h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+}
+  
+.projects-horizontal .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 10px;
+}
+  
+  .projects-horizontal .projects {
+    padding-bottom:40px;
+}
+  
+.projects-horizontal .item {
+    padding-top:60px;
+    min-height:160px;
+}
+  
+@media (max-width:767px) {
+    .projects-horizontal .item {
+      padding-top:40px;
+      min-height:160px;
+    }
+}
+  
+.projects-horizontal .item .name {
+    font-size:18px;
+    font-weight:bold;
+    margin-top:10px;
+    margin-bottom:15px;
+    color:inherit;
+  }
+  
+@media (max-width:991px) {
+    .projects-horizontal .item .name {
+      margin-top:22px;
+    }
+}
+  
+  .projects-horizontal .item .description {
+    font-size:15px;
+    margin-bottom:0;
+}
+    
+  
+
+/* Producto */ 
+
+
+
+
+
+/* Footer */ 
+.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#0f0f0f;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:rgb(31, 26, 26);
+    margin-bottom:0;
+  }
+
+
+
+
+.team-grid {
+    color:#313437;
+    background-color:#fff;
+}
+  
+.team-grid p {
+    color:#7d8285;
+}
+  
+.team-grid h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+}
+  
+@media (max-width:767px) {
+    .team-grid h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+}
+  
+.team-grid .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto;
+}
+  
+  .team-grid .intro p {
+    margin-bottom:0;
+}
+  
+.team-grid .people {
+    padding:50px 0;
+}
+  
+.team-grid .item {
+    margin-bottom:30px;
+}
+  
+.team-grid .item .box {
+    text-align:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    height:280px;
+    position:relative;
+    overflow:hidden;
+}
+  
+.team-grid .item .cover {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(31,148,255,0.75);
+    transition:opacity 0.15s ease-in;
+    opacity:0;
+    padding-top:80px;
+    color:#fff;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.15);
+}
+  
+.team-grid .item:hover .cover {
+    opacity:1;
+}
+  
+.team-grid .item .name {
+    font-weight:bold;
+    margin-bottom:8px;
+}
+  
+.team-grid .item .title {
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#bbd8fb;
+    letter-spacing:2px;
+    font-size:13px;
+    margin-bottom:20px;
+}
+  
+.team-grid .social {
+    font-size:18px;
+}
+  
+.team-grid .social a {
+    color:inherit;
+    margin:0 10px;
+    display:inline-block;
+    opacity:0.7;
+}
+
+.team-grid .social a:hover {
+    opacity:1;
+}
